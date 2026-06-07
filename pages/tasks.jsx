@@ -3,9 +3,9 @@ import TaskCard from "../components/TaskCard";
 
 function Tasks() {
   const items = [
-    { id: 1, title: "Design Landing Page", priority: "High" },
-    { id: 2, title: "Setup Database Schema", priority: "Medium" },
-    { id: 3, title: "Write API Documentation", priority: "Low" }
+    { id: 1, title: "study software engineering", priority: "High" },
+    { id: 2, title: "clean the house", priority: "Medium" },
+    { id: 3, title: "write to my next post", priority: "Low" }
   ];
 
   const [count] = useState(items.length);
